@@ -1,0 +1,260 @@
+export const profile = {
+  basics: {
+    name: "Computer Science Student", // User didn't provide name in image, I'll use a placeholder or leave as "CS Student"
+    headline: "Computer Science Student / Aspiring Software Developer",
+    summary: "Aspiring software developer with a strong foundation in full-stack web development and AI automation. Passionate about building responsive, user-friendly applications and exploring the intersections of technology and business strategy.",
+    location: "Montreal, QC",
+    //email: "your.email@example.com", // Placeholder 
+    github: "https://github.com/SpongebobCarry",
+    linkedin: "https://www.linkedin.com/in/mani-carry",
+  },
+  education: [
+    {
+      institution: "Concordia University",
+      degree: "Major in Computer Science",
+      location: "Montreal, QC",
+      period: "2023 - 2024",   
+    },
+    {
+      institution: "Nipissing University",
+      degree: "Major in Computer Science (Transfer)",
+      location: "Ontario, ON",
+      period: "2024 - Present",
+    },
+    {
+      institution: "Vanier College",
+      degree: "Diploma in Commerce",
+      location: "Montreal, QC",
+      period: "2020 - 2023",
+    },
+  ],
+  skills: [
+    {
+      category: "Frontend",
+      items: ["Next.js", "React", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS"],
+    },
+    {
+      category: "Backend & Systems",
+      items: ["C++", "Java", "AI Automation"],
+    },
+    {
+      category: "Tools & Other",
+      items: ["CapCut", "Adobe Premiere Pro", "Marketing", "Video Editing"],
+    },
+  ],
+  projects: [
+    {
+      title: "Automation Shard",
+      slug: "automation-shard",
+      description: "Leading AI automation and web solutions. Overseeing AI chatbot systems and voice assistants.",
+      stack: ["Next.js", "AI", "Chatbots"],
+      period: "2024 - Present",
+      role: "Project Manager",
+      features: [
+        "Custom AI chatbot systems",
+        "AI voice assistants",
+        "AI-driven business solutions",
+        "Automated AI workflows",
+      ],
+      challenges: "Managing complex AI integrations and ensuring timely delivery of custom client solutions.",
+      whatILearned: "Enhanced leadership skills and deepened technical understanding of AI automation workflows.",
+      links: {
+        github: "#",
+        live: "https://automationshard.com/",
+      },
+    },
+    {
+      title: "Tops Chef",
+      slug: "tops-chef",
+      description: "A premium culinary platform delivered to customers, featuring modern UI and seamless user experience.",
+      stack: ["React", "Tailwind CSS", "Next.JS", "Vercel"],
+      period: "2024",
+      features: [
+        "Professional customer-facing site",
+        "Mobile-first responsive design",
+        "Modern styling with Tailwind",
+      ],
+      challenges: "Ensuring high performance and reliability for a production environment.",
+      whatILearned: "Learned the intricacies of deploying and maintaining live client applications.",
+      links: {
+        github: "#",
+        live: "https://www.topschef.ca/",
+      },
+    },
+    {
+      title: "Arabica",
+      slug: "arabica",
+      description: "Elegant web application for a café/business, focusing on localized content and smooth navigation.",
+      stack: ["React", "Tailwind CSS", "Next.JS", "Vercel"],
+      period: "2024",
+      features: [
+        "Multi-language support (fr)",
+        "Responsive layout",
+        "Interactive menu elements",
+      ],
+      challenges: "Implementing clean localized routing and content structure.",
+      whatILearned: "Improved skills in internationalization and clean UI components.",
+      links: {
+        github: "#",
+        live: "https://arabica-dun.vercel.app/fr",
+      },
+    },
+    {
+      title: "Auto Mac Inc",
+      slug: "auto-mac",
+      description: "Automotive services platform with a focus on service listings and customer engagement.",
+      stack: ["React", "Tailwind CSS", "Next.JS", "Vercel"],
+      period: "2024",
+      features: [
+        "Service showcase",
+        "Contact integration",
+        "Mobile-friendly interface",
+      ],
+      challenges: "Designing an intuitive flow for automotive service browsing.",
+      whatILearned: "Deepened understanding of industry-specific UX patterns.",
+      links: {
+        github: "#",
+        live: "https://auto-mac-inc.vercel.app/fr",
+      },
+    },
+    {
+      title: "Best Health",
+      slug: "best-health",
+      description: "Health and wellness platform designed to provide accessible information and services.",
+      stack: ["React", "Tailwind CSS", "Next.JS", "Vercel"],
+      period: "2024",
+      features: [
+        "Clean, medical-grade UI",
+        "Information architecture for health data",
+        "Fast loading times",
+      ],
+      challenges: "Balancing information density with a calming user experience.",
+      whatILearned: "Focused on accessibility and readability in web design.",
+      links: {
+        github: "#",
+        live: "https://best-health-web.vercel.app/",
+      },
+    },
+    {
+      title: "Lashes & Salons",
+      slug: "lashes-and-salons",
+      description: "Beauty service booking and showcase application for salons.",
+      stack: ["React", "Tailwind CSS", "Next.JS", "Vercel"],
+      isPublic: true,
+      period: "2024",
+      features: [
+        "Service gallery",
+        "Visual-heavy design",
+        "Simplified booking flow",
+      ],
+      challenges: "Managing high-quality image assets without compromising performance.",
+      whatILearned: "Techniques for image optimization and visual storytelling.",
+      links: {
+        github: "https://github.com/SpongebobCarry/Lashes-and-Salons",
+        live: "https://lashes-and-salons.vercel.app/",
+      },
+    },
+    {
+      title: "Maple Leaf Financial Advisor",
+      slug: "maple-leaf-financial",
+      description: "Professional services site for financial consulting and advisory.",
+      stack: ["React", "Tailwind CSS", "Next.JS", "Vercel"],
+      isPublic: true,
+      period: "2024",
+      features: [
+        "Trust-focused professional design",
+        "Consultation booking integration",
+        "Detailed service breakdowns",
+      ],
+      challenges: "Conveying professionalism and security through design.",
+      whatILearned: "Building trust-oriented user interfaces for financial sectors.",
+      links: {
+        github: "https://github.com/SpongebobCarry/Maple-Leaf-Financial-Advisor",
+        live: "https://maple-leaf-financial-advisor.vercel.app/",
+      },
+    },
+    {
+      title: "Car Voom",
+      slug: "car-voom",
+      description: "Dynamic automotive platform for car enthusiasts and buyers.",
+      stack: ["React", "Tailwind CSS", "Next.JS", "Vercel"],
+      period: "2024",
+      features: [
+        "Inventory display",
+        "High-performance filtering",
+        "Responsive car cards",
+      ],
+      challenges: "Creating a fast, interactive search and filter system.",
+      whatILearned: "Enhanced state management for complex UI filters.",
+      links: {
+        github: "#",
+        live: "https://car-voom.vercel.app/en",
+      },
+    },
+    {
+      title: "Flex Voyages",
+      slug: "flex-voyages",
+      description: "Travel and tourism platform for exploring and booking trips.",
+      stack: ["React", "Tailwind CSS", "Next.JS", "Vercel"],
+      period: "2024",
+      features: [
+        "Destination showcase",
+        "Booking interest forms",
+        "Interactive travel UI",
+      ],
+      challenges: "Handling diverse travel destination data elegantly.",
+      whatILearned: "Improved layout composition for heterogeneous content.",
+      links: {
+        github: "#",
+        live: "https://flex-voyages.vercel.app/",
+      },
+    },
+    {
+      title: "VEONN",
+      slug: "veonn",
+      description: "Modern web solution for digital and business initiatives.",
+      stack: ["React", "Tailwind CSS", "Next.JS", "Vercel"],
+      isPublic: true,
+      period: "2024",
+      features: [
+        "Minimalist aesthetic",
+        "Fast performance",
+        "Responsive across all devices",
+      ],
+      challenges: "Achieving a 'premium minimal' look while maintaining functionality.",
+      whatILearned: "Mastery of modern CSS layout techniques.",
+      links: {
+        github: "https://github.com/SpongebobCarry/VEONN",
+        live: "https://veonn.vercel.app/",
+      },
+    },
+    {
+      title: "Video Content Creation",
+      slug: "video-content",
+      description: "Produced engaging short-form video content for social platforms like Instagram and YouTube.",
+      stack: ["CapCut", "Adobe Premiere Pro", "Marketing"],
+      period: "2022 - Present",
+      features: [
+        "Instagram Reels production",
+        "YouTube Shorts optimization",
+        "Strategic marketing content",
+      ],
+      challenges: "Keeping up with fast-moving trends and maintaining high engagement rates.",
+      whatILearned: "Developed a keen eye for visual storytelling and digital marketing strategies.",
+    },
+  ],
+  additionalProjects: [], // Moved to main projects array for better visibility
+  experience: [
+    {
+      company: "American Eagle",
+      role: "Brand Ambassador",
+      location: "Montreal, QC",
+      period: "April 2023 - August 2023",
+      highlights: [
+        "Ensured store is visually appealling for customers",
+        "Performed stock replenishment and product recommendations",
+        "Respected 5S standards for inventory management",
+      ],
+    }
+  ],
+};
