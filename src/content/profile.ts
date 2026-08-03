@@ -15,12 +15,12 @@ export const profile = {
       location: "Montreal, QC",
       period: "2023 - 2024",   
     },
-    {
+/*     {
       institution: "Nipissing University",
       degree: "Major in Computer Science (Transfer)",
       location: "Ontario, ON",
       period: "2024 - Present",
-    },
+    }, */
     {
       institution: "Vanier College",
       degree: "Diploma in Commerce",
