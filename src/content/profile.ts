@@ -13,7 +13,7 @@ export const profile = {
       institution: "Concordia University",
       degree: "Major in Computer Science",
       location: "Montreal, QC",
-      period: "2023 - 2024",   
+      period: "2023 - present",   
     },
 /*     {
       institution: "Nipissing University",
