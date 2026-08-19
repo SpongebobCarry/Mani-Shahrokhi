@@ -30,21 +30,25 @@ export const profile = {
   ],
   skills: [
     {
-      category: "Frontend",
-      items: ["Next.js", "React", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS", "PostgreSQL"],
+      category: "Languages & Frameworks",
+      items: ["TypeScript", "JavaScript", "HTML", "CSS", "PostgreSQL"],
     },
     {
-      category: "Backend & Systems",
-      items: ["Node.js", "AI Automation"],
+      category: "Frameworks & Libraries",
+      items: ["Next.js", "React","Tailwind CSS",],
+    },
+    {
+      category: "Backend, Data & Tools",
+      items: ["Node.js", "PostgreSQL", "Git", "GitHub", "Vercel", "VS Code"],
     },
     {
       category: "Tools & Other",
-      items: ["CapCut", "Adobe Premiere Pro", "Marketing", "Video Editing", "Vercel", "Git", "GitHub", "VS Code"],
+      items: ["CapCut", "Adobe Premiere Pro", "Marketing", "Video Editing", "AI Automation"],
     },
   ],
   projects: [
     {
-      title: "Automation Shard",
+      title: "Automation Shard AI",
       slug: "automation-shard",
       description: "Leading AI automation and web solutions. Overseeing AI chatbot systems and voice assistants.",
       stack: ["Next.js", "AI", "Chatbots"],
