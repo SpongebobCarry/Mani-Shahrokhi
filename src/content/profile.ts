@@ -31,15 +31,15 @@ export const profile = {
   skills: [
     {
       category: "Frontend",
-      items: ["Next.js", "React", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS"],
+      items: ["Next.js", "React", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS", "PostgreSQL"],
     },
     {
       category: "Backend & Systems",
-      items: ["C++", "Java", "AI Automation"],
+      items: ["Node.js", "AI Automation"],
     },
     {
       category: "Tools & Other",
-      items: ["CapCut", "Adobe Premiere Pro", "Marketing", "Video Editing"],
+      items: ["CapCut", "Adobe Premiere Pro", "Marketing", "Video Editing", "Vercel", "Git", "GitHub", "VS Code"],
     },
   ],
   projects: [
