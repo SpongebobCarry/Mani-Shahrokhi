@@ -30,8 +30,12 @@ export const profile = {
   ],
   skills: [
     {
-      category: "Languages & Frameworks",
-      items: ["TypeScript", "JavaScript", "HTML", "CSS", "PostgreSQL"],
+      category: "Languages & Web",
+      items: ["C++", "TypeScript", "JavaScript", "HTML", "CSS", "PostgreSQL"],
+    },
+    {
+      category: "Still learning",
+      items: ["Python", "Java"],
     },
     {
       category: "Frameworks & Libraries",
