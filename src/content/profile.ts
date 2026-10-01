@@ -43,7 +43,7 @@ export const profile = {
     },
     {
       category: "Backend, Data & Tools",
-      items: ["Node.js", "PostgreSQL", "Git", "GitHub", "Vercel", "VS Code"],
+      items: ["Prompt Engineering", "Node.js", "PostgreSQL", "Git", "GitHub", "Vercel", "VS Code"],
     },
     {
       category: "Tools & Other",
